@@ -1328,7 +1328,7 @@ public class DuplicateFinder {
 }
 ```
 
-**20. Ограничитель емкости кэша картинок**
+**20. Ограничитель емкости кэша картинок.**
 
 ```java
 import java.util.LinkedList;
@@ -1349,9 +1349,9 @@ public class ImageCache {
 ```
 ---
 
-### Блок 3
+### Блок №3
 
-**21. Парсер параметров диплинка**
+**21. Парсер параметров диплинка.**
 
 ```java
 import java.util.HashMap;
@@ -1374,7 +1374,7 @@ public class DeepLinkParser {
 }
 ```
 
-**22. Симулятор Retry-политики**
+**22. Симулятор Retry-политики.**
 
 ```java
 public class RetrySimulator {
@@ -1386,13 +1386,13 @@ public class RetrySimulator {
                 return true;
             }
         }
-        System.out.println("Все попытки исчерпаны");
+        System.out.println("Все попытки исчерпаны. . .");
         return false;
     }
 }
 ```
 
-**23. Очередь отложенных офлайн-действий**
+**23. Очередь отложенных офлайн-действий.**
 
 ```java
 import java.util.LinkedList;
@@ -1414,7 +1414,7 @@ public class OfflineActionQueue {
 }
 ```
 
-**24. Слияние локальных данных с сервером**
+**24. Слияние локальных данных с сервером.**
 
 ```java
 public class ConflictResolver {
@@ -1427,7 +1427,7 @@ public class ConflictResolver {
 }
 ```
 
-**25. Оценка скорости скачивания файла**
+**25. Оценка скорости скачивания файла.**
 
 ```java
 public class SpeedCalculator {
@@ -1441,7 +1441,7 @@ public class SpeedCalculator {
 }
 ```
 
-**26. Парсинг заголовков пагинации сервера**
+**26. Парсинг заголовков пагинации сервера.**
 
 ```java
 import java.util.regex.Matcher;
@@ -1459,7 +1459,7 @@ public class PaginationHeaderParser {
 }
 ```
 
-**27. Проверка актуальности кэша по ETag**
+**27. Проверка актуальности кэша по ETag.**
 
 ```java
 public class ETagChecker {
@@ -1469,7 +1469,7 @@ public class ETagChecker {
 }
 ```
 
-**28. Форматирование байтов в читаемый вид**
+**28. Форматирование байтов в читаемый вид.**
 
 ```java
 public class ByteFormatter {
@@ -1485,7 +1485,7 @@ public class ByteFormatter {
 }
 ```
 
-**29. Имитация веб-сокета для биржевого виджета**
+**29. Имитация веб-сокета для биржевого виджета.**
 
 ```java
 public interface PriceListener {
@@ -1504,7 +1504,7 @@ public class PriceSimulator {
 }
 ```
 
-**30. Валидатор ответа API**
+**30. Валидатор ответа API.**
 
 ```java
 import java.util.Map;
@@ -1525,7 +1525,7 @@ public class ProfileValidator {
 
 ### Блок 4
 
-**31. Конечный автомат экрана загрузки**
+**31. Конечный автомат экрана загрузки.**
 
 ```java
 public class ScreenStateHandler {
@@ -1543,7 +1543,7 @@ public class ScreenStateHandler {
 }
 ```
 
-**32. Дебаунсер кликов**
+**32. Дебаунсер кликов.**
 
 ```java
 public class ClickDebouncer {
@@ -1561,7 +1561,7 @@ public class ClickDebouncer {
 }
 ```
 
-**33. Стек навигации экранов**
+**33. Стек навигации экранов.**
 
 ```java
 import java.util.Stack;
@@ -1588,7 +1588,7 @@ public class BackStack {
 }
 ```
 
-**34. Моделирование темной и светлой темы**
+**34. Моделирование темной и светлой темы.**
 
 ```java
 public class ThemePalette {
@@ -1602,7 +1602,7 @@ public class ThemePalette {
 }
 ```
 
-**35. Расчет прогресса заполнения профиля**
+**35. Расчет прогресса заполнения профиля.**
 
 ```java
 public class ProfileProgress {
@@ -1619,7 +1619,7 @@ public class ProfileProgress {
 }
 ```
 
-**36. Инвертор цвета текста для контрастности**
+**36. Инвертор цвета текста для контрастности.**
 
 ```java
 public class ContrastCalculator {
@@ -1630,7 +1630,7 @@ public class ContrastCalculator {
 }
 ```
 
-**37. Форматирование счетчика лайков**
+**37. Форматирование счетчика лайков.**
 
 ```java
 public class LikesFormatter {
@@ -1646,7 +1646,7 @@ public class LikesFormatter {
 }
 ```
 
-**38. Менеджер системных диалогов**
+**38. Менеджер системных диалогов.**
 
 ```java
 import java.util.LinkedList;
@@ -1675,7 +1675,7 @@ public class DialogManager {
 }
 ```
 
-**39. Валидатор состояния кнопки «Оплатить»**
+**39. Валидатор состояния кнопки «Оплатить».**
 
 ```java
 public class PayButtonValidator {
@@ -1685,7 +1685,7 @@ public class PayButtonValidator {
 }
 ```
 
-**40. Транслятор ошибок для пользователя**
+**40. Транслятор ошибок для пользователя.**
 
 ```java
 import java.util.HashMap;
@@ -1706,9 +1706,9 @@ public class ErrorTranslator {
 ```
 ---
 
-### Блок 5
+### Блок №5
 
-**41. Расчет расстояния между двумя GPS-точками**
+**41. Расчет расстояния между двумя GPS-точками.**
 
 ```java
 public class DistanceCalculator {
@@ -1725,7 +1725,7 @@ public class DistanceCalculator {
 }
 ```
 
-**42. Определитель вхождения в геозону**
+**42. Определитель вхождения в геозону.**
 
 ```java
 public class Geofence {
@@ -1736,7 +1736,7 @@ public class Geofence {
 }
 ```
 
-**43. Энергосберегающий планировщик геолокации**
+**43. Энергосберегающий планировщик геолокации.**
 
 ```java
 public class GpsScheduler {
